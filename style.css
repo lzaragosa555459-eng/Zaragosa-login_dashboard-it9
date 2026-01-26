@@ -1,11 +1,17 @@
-body{
-    background-color: #E8E2D8;
-}
+
 
 h1{
     color: #6F8F72; 
     font-family: Sans-serif;
     
+}
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #E8E2D8;
 }
 form{
     padding: 10%;
@@ -14,7 +20,7 @@ form{
 .txt-field{
     height: 30px;
     width: 30%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .btn-container{
     text-align: right;
@@ -27,6 +33,11 @@ form{
     height: 40px;
     margin-top: 40px;
     margin-right: 34.77%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #6F8F72; 
+    font-family: Sans-serif;
 }
 .Dashboard-container{
     background-color: #F3F4F4;
@@ -45,6 +56,12 @@ th, td {
     padding: 10px;
    
 }
+th{
+    background-color:#4CAF50;
+}
+td{
+    background-color: #f2f2f2;
+}
 a {
     color: #1D546D;          
     text-decoration: none; 
@@ -52,4 +69,9 @@ a {
 
   a:hover {
     color: red;          
+  }
+  
+  h3{
+  color: blue;
+  font-family: 'Courier New', monospace;
   }
