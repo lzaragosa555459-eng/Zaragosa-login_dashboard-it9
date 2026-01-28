@@ -5,36 +5,17 @@ h1{
     font-family: Sans-serif;
     
 }
-.container{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
-              0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #E8E2D8;
-}
-form{
-    padding: 10%;
-}
 
-.txt-field{
-    height: 30px;
-    width: 30%;
-    margin-top: 30px;
-}
+
 .btn-container{
     text-align: right;
 }
-.input-container{
-   text-align: center; 
-}
+
 .btn{
-    width: 80px;
-    height: 40px;
+    width: 310px;
     margin-top: 40px;
-    margin-right: 34.77%;
+    margin-right: 29%;
     border-radius: 10px;
-    border: none;
     cursor: pointer;
     background-color: #6F8F72; 
     font-family: Sans-serif;
@@ -48,11 +29,11 @@ form{
 }
 table{
     border-collapse: collapse; 
-    border: 2px solid #333; 
+    border: none; 
     margin: 20px auto;
 }
 th, td {
-    border: 1px solid #333;   
+    border: 1px solid #4CAF50;   
     padding: 10px;
    
 }
@@ -60,7 +41,7 @@ th{
     background-color:#4CAF50;
 }
 td{
-    background-color: #f2f2f2;
+    background-color: #E8E2D8;
 }
 a {
     color: #1D546D;          
@@ -75,3 +56,45 @@ a {
   color: blue;
   font-family: 'Courier New', monospace;
   }
+
+  .Register-form , .login-form{
+  width: 310px;             
+  padding: 10%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;  
+  gap: 16px;
+  background-color: #E8E2D8;
+  margin-left: 30%;
+  margin-top: 2%;
+
+  button{
+    background-color:  #6F8F72;
+    width: 310px;
+    border-radius: 8px;
+    border: none;
+    height: 30px;
+  }
+  button:hover {
+  background-color: #1D546D;
+}
+}
+
+
+.field, .login-field{
+  
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    
+}
+
+.Register-label, .login-label{
+  width: 100px;
+  margin-left: 20px;
+}
+
+
+
+
