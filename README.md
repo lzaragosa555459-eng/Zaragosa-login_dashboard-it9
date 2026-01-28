@@ -1,4 +1,4 @@
-# __Login, Dashbordand, Registration application__
+# __Login, Dashboard, and Registration application__
 * A simple login form where users will login or register to navigate dashboard of list of students.<br/>
 ## __Registration page__
 * Lets users input their information if the user has no account.<br/>
