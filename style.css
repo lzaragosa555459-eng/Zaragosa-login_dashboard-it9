@@ -41,7 +41,7 @@ th{
     background-color:#4CAF50;
 }
 td{
-    background-color: #E8E2D8;
+    background-color: #eeeae3;
 }
 a {
     color: #1D546D;          
@@ -96,5 +96,14 @@ a {
 }
 
 
+h2{
+    color: #6F8F72;
+    font-family: 'Courier New', monospace;
+}
 
-
+.box{
+    background-color: #acc0ae; 
+    width: 100%; 
+    height: 35px; 
+   
+}
